@@ -4,17 +4,27 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import LandingBlock from "../components/LandingBlock"
+
+const blocks = [
+  {
+    color: '#FB9D46',
+    fullHeight: true,
+  }, {
+    color: '#1CBABD',
+    fullHeight: true,
+  },
+];
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Dmytro Borchuk" keywords={[`personal`, `website`, `site`, `portfolio`, `resume`, `sv`]} />
+    {blocks.map(block => (
+      <LandingBlock
+        color={block.color}
+        fullHeight={block.fullHeight}
+      />
+    ))}
   </Layout>
 )
 
