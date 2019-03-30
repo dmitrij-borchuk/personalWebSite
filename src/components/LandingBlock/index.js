@@ -1,15 +1,20 @@
 import React from "react"
 
 const LandingBlock = (props) => {
+  const {
+    color,
+    fullHeight,
+    children,
+  } = props;
   const styles = {
-    background: props.color,
+    background: color,
     position: 'relative',
   };
   const deg = 5;
   const rad = (90 - deg) * Math.PI / 180;
   const bottomBlockWidth = 100 / Math.sin(rad);
   const bottomBlocHeight = Math.sqrt(Math.pow(bottomBlockWidth, 2) - Math.pow(100, 2));
-  if (props.fullHeight) {
+  if (fullHeight) {
     styles.height = '100vh';
   }
 
@@ -17,7 +22,7 @@ const LandingBlock = (props) => {
     <div style={styles}>
       <div
         style={{
-          background: props.color,
+          background: color,
           position: 'absolute',
           right: 0,
           width: `${bottomBlockWidth}vw`,
@@ -26,7 +31,7 @@ const LandingBlock = (props) => {
           transformOrigin: 'right top',
         }}
       />
-      Block
+      {children}
     </div>
   )
 }
