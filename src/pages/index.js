@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import LandingBlock from "../components/LandingBlock"
 import HelloBlock from "../components/HelloBlock"
+import AboutBlock from "../components/AboutBlock"
 
 const blocks = [
   {
@@ -17,7 +18,10 @@ const blocks = [
   }, {
     color: '#1CBABD',
     fullHeight: true,
-    id: '2',
+    id: 'about',
+    content: (
+      <AboutBlock />
+    ),
   }, {
     color: '#E4473E',
     fullHeight: true,

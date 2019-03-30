@@ -625,3 +625,7 @@ pre tt:after {
 body {
   font-family: 'Quicksand', sans-serif;
 }
+
+.text-center {
+  text-align: center;
+}
