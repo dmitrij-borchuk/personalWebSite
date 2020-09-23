@@ -20,7 +20,7 @@
     "typeface-quicksand": "0.0.71"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "prettier": "2.1.2"
   },
   "keywords": [
     "gatsby"
