@@ -9042,10 +9042,10 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typeface-quicksand@0.0.71:
-  version "0.0.71"
-  resolved "https://registry.yarnpkg.com/typeface-quicksand/-/typeface-quicksand-0.0.71.tgz#85157b7cc299b558dbeeea1a413217887685dd6b"
-  integrity sha512-MIVkJ+oQGx/YTjMn6rff+BVr/xDBctkgYCa85ch8vTpeqtoGF/ZoYHWOKJRBoeiYVsHGasVczb4NPe5gZQsjiQ==
+typeface-quicksand@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/typeface-quicksand/-/typeface-quicksand-1.1.4.tgz#69ba3efca02575699c36681e718651052bdec0a6"
+  integrity sha512-J/dTQI5g6V8kK1M38FNn+eHVzImtQtOvVaWA/QU3BNHdx+0NSMh3DL6Ub4CFEo2k5/QAw9vppWMbLVg4vGyXGw==
 
 ua-parser-js@^0.7.18:
   version "0.7.19"
